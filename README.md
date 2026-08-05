@@ -22,12 +22,10 @@ var prepClimate = function(image) {
   var maxTempC = image.select('tmmx').multiply(0.1).rename('temp_max_c');
   var minTempC = image.select('tmmn').multiply(0.1).rename('temp_min_c');
 📈 Visual Outputs & Time Series Trends
-1. Maiduguri City Monthly Temperature (2006–2026)
-Tracks max and min monthly thermal bounds in Maiduguri across a 20-year window.
+### 1. Maiduguri City Monthly Temperature (2006–2026)
 ![Maiduguri Temperature Chart](figures/Maiduguri_Temperature_chart.png)
 
-2. Lagos City Monthly Precipitation (2006–2026)
-Captures bimodal rainfall peaks and inter-annual wet season variability in coastal Lagos.
+### 2. Lagos City Monthly Precipitation (2006–2026)
 ![Lagos Precipitation Chart](figures/Lagos_Precipitation_chart.png)
 
 💻 Interactive Code & Reproduction
