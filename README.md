@@ -25,26 +25,3 @@ var prepClimate = function(image) {
   var precip = image.select('pr').rename('precipitation_mm');
   return image.addBands([maxTempC, minTempC, precip]);
 };
-
-📈 Visual Outputs & Time Series Trends
-### 1. Maiduguri City Monthly Temperature (2006–2026)
-![Maiduguri Temperature Chart](figures/Maiduguri_Temperature_chart.png)
-
-### 2. Lagos City Monthly Precipitation (2006–2026)
-![Lagos Precipitation Chart](figures/Lagos_Precipitation_chart.png)
-
-💻 Interactive Code & Reproduction
-Interactive GEE Code Editor Link: ** 🔗 [Run Script in Google Earth Engine](https://code.earthengine.google.com/47a9a87c1bff6bfbeee0f73b38f880a9)
-Raw Code File:** Access the standalone JavaScript file in [`scripts/gee_terraclimate_extraction.js`](scripts/gee_terraclimate_extraction.js)
-
-🛠️ Tools & Data Attribution
-Processing Engine: Google Earth Engine (GEE JavaScript API)
-
-Dataset: TerraClimate (IDAHO_EPSCOR/TERRACLIMATE) — University of Idaho / Climatology Lab
-
-Spatial Resolution: ~1/24th degree (~4,638m / 4.6km grid)
-
-Author: Abiodun Iyanda
-  var precip = image.select('pr').rename('precipitation_mm');
-  return image.addBands([maxTempC, minTempC, precip]);
-};
