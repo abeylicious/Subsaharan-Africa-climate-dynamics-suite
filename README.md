@@ -48,22 +48,18 @@ var prepClimate = function(image) {
   1. **Primary Peak (May–July):** Heavy convective monsoon rainfall.
   2. **Secondary Peak (September–October):** Brief late-season rainfall surge separated by the August Break (*"August Dip"*).
 * **Inter-Annual Rainfall Variability:** Significant year-to-year variance in total seasonal precipitation accumulation, signaling heightened vulnerability to coastal flash flooding and urban stormwater surcharge.
- 
+
+ ---
 
 💻 Interactive Code & ReproductionInteractive GEE Code Editor Link:
 
-
 ** 🔗 [Run Script in Google Earth Engine](https://code.earthengine.google.com/47a9a87c1bff6bfbeee0f73b38f880a9)
-
 
 Raw Code File:** Access the standalone JavaScript file in [`scripts/gee_terraclimate_extraction.js`](scripts/gee_terraclimate_extraction.js)
 
-
 🛠️ Tools & Data Attribution
 
-
 Processing Engine: Google Earth Engine (GEE JavaScript API)
-
 
 Dataset: TerraClimate (IDAHO_EPSCOR/TERRACLIMATE) — University of Idaho / Climatology Lab
 
