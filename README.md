@@ -35,6 +35,21 @@ var prepClimate = function(image) {
 ### 2. Lagos City Monthly Precipitation (2006–2026)
 ![Lagos Precipitation Chart](figures/Lagos_Precipitation_chart.png)
 
+---
+
+## 📌 Key Analytical Findings
+
+### 🌡️ Maiduguri Thermal Dynamics (Sahelian Zone)
+* **Extreme Seasonal Fluctuation:** Maximum temperatures consistently peak between **April and May** (frequently exceeding $40^\circ\text{C}$), representing the intense pre-monsoon heat dome characteristic of the Sudano-Sahelian strip.
+* **Elevated Baseline Minimums:** Inter-annual night-time minimum temperatures (`tmmn`) exhibit a gradual upward baseline shift over the 20-year record, highlighting persistent thermal stress and land surface heating.
+
+### 🌧️ Lagos Hydro-Climatic Dynamics (Coastal Atlantic Zone)
+* **Bimodal Rainfall Distribution:** Demonstrates the classic West African Monsoon dual-peak structure:
+  1. **Primary Peak (May–July):** Heavy convective monsoon rainfall.
+  2. **Secondary Peak (September–October):** Brief late-season rainfall surge separated by the August Break (*"August Dip"*).
+* **Inter-Annual Rainfall Variability:** Significant year-to-year variance in total seasonal precipitation accumulation, signaling heightened vulnerability to coastal flash flooding and urban stormwater surcharge.
+ 
+
 💻 Interactive Code & ReproductionInteractive GEE Code Editor Link:
 
 
