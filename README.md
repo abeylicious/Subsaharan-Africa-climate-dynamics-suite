@@ -27,7 +27,10 @@ var prepClimate = function(image) {
 };
 **` ``` `**
 
-`## 📈 Visual Outputs & Time Series Trends
+
+
+
+## 📈 Visual Outputs & Time Series Trends
 ### 1. Maiduguri City Monthly Temperature (2006–2026)![Maiduguri Temperature Chart](figures/Maiduguri_Temperature_chart.png)
 
 ### 2. Lagos City Monthly Precipitation (2006–2026)![Lagos Precipitation Chart](figures/Lagos_Precipitation_chart.png)💻 Interactive Code & ReproductionInteractive GEE Code Editor Link: ** 🔗 [Run Script in Google Earth Engine](https://code.earthengine.google.com/47a9a87c1bff6bfbeee0f73b38f880a9)Raw Code File:** Access the standalone JavaScript file in [`scripts/gee_terraclimate_extraction.js`](scripts/gee_terraclimate_extraction.js)🛠️ Tools & Data Attribution
