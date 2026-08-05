@@ -24,14 +24,15 @@ var prepClimate = function(image) {
 📈 Visual Outputs & Time Series Trends
 1. Maiduguri City Monthly Temperature (2006–2026)
 Tracks max and min monthly thermal bounds in Maiduguri across a 20-year window.
+![Maiduguri Temperature Chart](figures/Maiduguri_Temperature_chart.png)
 
 2. Lagos City Monthly Precipitation (2006–2026)
 Captures bimodal rainfall peaks and inter-annual wet season variability in coastal Lagos.
+![Lagos Precipitation Chart](figures/Lagos_Precipitation_chart.png)
 
 💻 Interactive Code & Reproduction
-Interactive GEE Code Editor Link: 🔗 Run Script in Google Earth Engine
-
-Raw Code File: Access the standalone JavaScript file in scripts/gee_terraclimate_extraction.js.
+Interactive GEE Code Editor Link: ** 🔗 [Run Script in Google Earth Engine](https://code.earthengine.google.com/47a9a87c1bff6bfbeee0f73b38f880a9)
+Raw Code File:** Access the standalone JavaScript file in [`scripts/gee_terraclimate_extraction.js`](scripts/gee_terraclimate_extraction.js)
 
 🛠️ Tools & Data Attribution
 Processing Engine: Google Earth Engine (GEE JavaScript API)
