@@ -57,6 +57,3 @@ Spatial Resolution: ~1/24th degree (~4,638m / 4.6km grid)
 Author: Abiodun Iyanda
 
 
-  var precip = image.select('pr').rename('precipitation_mm');
-  return image.addBands([maxTempC, minTempC, precip]); 
-
