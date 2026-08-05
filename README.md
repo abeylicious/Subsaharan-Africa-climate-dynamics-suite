@@ -21,6 +21,10 @@ Raw TerraClimate temperature bands (`tmmx` and `tmmn`) are stored as integers wi
 var prepClimate = function(image) {
   var maxTempC = image.select('tmmx').multiply(0.1).rename('temp_max_c');
   var minTempC = image.select('tmmn').multiply(0.1).rename('temp_min_c');
+  var precip = image.select('pr').rename('precipitation_mm');
+  return image.addBands([maxTempC, minTempC, precip]);
+};
+
 📈 Visual Outputs & Time Series Trends
 ### 1. Maiduguri City Monthly Temperature (2006–2026)
 ![Maiduguri Temperature Chart](figures/Maiduguri_Temperature_chart.png)
